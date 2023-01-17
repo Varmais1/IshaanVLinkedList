@@ -1,3 +1,5 @@
+#ifndef STUDENT_H
+#define STUDENT_H
 #include <cstring>
 #include <iostream>
 
@@ -11,4 +13,6 @@ class Student {
   float GPA;
   Student();
   Student(char nfirstName[60], char nlastName[60], int nid, float nGPA);
-}
+};
+
+#endif

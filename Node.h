@@ -1,3 +1,5 @@
+#ifndef NODE_H
+#define NODE_H
 #include <cstring>
 #include "Student.h"
 
@@ -11,4 +13,5 @@ class Node {
  private:
   Student* student;
   Node* next;
-}
+};
+#endif
