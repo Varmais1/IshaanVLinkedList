@@ -12,9 +12,9 @@ Node::Node() {
   next = NULL;
 }
 
-Node::Node(Student* nstudent, Node* nnext) {
+Node::Node(Student* nstudent) {
   student = nstudent;
-  next = nnext;
+  next = NULL;
 }
 
 //gets the student in the node
